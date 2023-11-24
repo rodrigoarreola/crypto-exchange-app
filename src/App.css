@@ -1,38 +1,96 @@
+
 .App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.homepage-container {
+  position: relative;
+  height: 100vh; 
+  overflow: hidden;
+}
+
+.background-image {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-image: url('./assets/background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  opacity: 1; 
+}
+
+.background-image > h1{
+  color: #FFF;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app-container{
+  width: 90vw;
+  position: relative;
+  margin: -100px auto 0; 
+  padding: 20px; 
+  border-radius: 15px; 
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.exchangeContainer{
+  padding: 50px 50px;
+}
+
+.generalContainer{
+  padding: 50px 50px;
+}
+
+@media (max-width: 767px) {
+  .ant-menu-horizontal {
+    display: flex !important;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .ant-menu-horizontal > .ant-menu-item {
+    flex-grow: 1;
   }
 }
