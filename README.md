@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Application Requirements and Configuration Guide
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## System Requirements:
 
-## Available Scripts
+- **Operating System:** Windows, macOS, Linux
+- **Processor:** Minimum dual-core processor
+- **RAM:** Minimum 4 GB
+- **Disk Space:** Minimum 5 GB
 
-In the project directory, you can run:
+## Development Environment:
 
-### `npm start`
+- **Code Editor:** Choose one from Visual Studio Code, Atom, or Sublime Text.
+- **Version Control System:** Git
+- **Programming Languages:** JavaScript (Node.js)
+- **Frameworks:** React (version 16.0 or higher)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** ^16.0.0
+- **React Router:** ^5.0.0
+- **Axios:** ^0.21.0
+- **Ant Design:** ^4.0.0
 
-### `npm test`
+## Installation Steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository: `git clone https://github.com/your-username/your-app.git`
+2. Navigate to the project directory: `cd your-app`
+3. Install dependencies: `npm install`
 
-### `npm run build`
+## Configuration:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Environment Variables:** Create a `.env` file with necessary environment variables. Refer to the `.env.example` file.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API Keys and Secrets:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If your application uses external APIs, obtain API keys and add them to the configuration.
 
-### `npm run eject`
+## Build Process:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Build the application: `npm run build`
+2. Transpile code if necessary: `npm run transpile`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Run and Test:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Run the application: `npm start`
+2. Open the browser and navigate to `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Deployment:
 
-## Learn More
+1. Configure deployment settings in the deployment configuration file.
+2. Deploy the application using the deployment script: `npm run deploy`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Troubleshooting:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Common Issues and Solutions:**
+  - If encountering issues during installation, ensure that Node.js and npm are properly installed.
+  - Check for typos in configuration files.
 
-### Code Splitting
+## License:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the [MIT License](LICENSE).
 
-### Analyzing the Bundle Size
+## Contact Information:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+For support or inquiries, contact me at contact@rodrigoarreola.com.mx
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
